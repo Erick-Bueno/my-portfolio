@@ -849,7 +849,7 @@ footer{
   align-items: center;
   gap: 5px;
 }
-@media screen and (max-width:320px){
+@media screen and (min-width:425px){
   footer{
     font-size: 0.6rem;
   }
