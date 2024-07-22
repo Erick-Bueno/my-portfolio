@@ -13,17 +13,28 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#sec1"><p class="logo">Erick</p></a>
-        <div class="links">
-          <a href="#sec1">Home </a>
-          <a href="#sec2">Sobre mim </a>
-          <a href="#sec4">Projetos</a>
-          <a href="#sec3">Tecnologias</a>
+    
+      <nav class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            Erick
+          </div>
         </div>
-        <div class="menu">
-          <div class="middle"></div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
+        
+        <ul class="nav-list">
+          <li><a href="#sec1">Home</a></li>
+          <li><a href="#sec3">Tecnologias</a></li>
+          <li><a href="#sec2">Sobre mim</a></li>
+          <li><a href="#sec4">Projetos</a></li>
+        </ul>
       </nav>
     </header>
     <div class="overlay"></div>
@@ -202,21 +213,7 @@
   </body>
   <script>
     const data = document.querySelector(".data")
-    window.addEventListener("load", enableMobileMenu);
-    window.addEventListener("resize", enableMobileMenu);
     data.textContent = new Date().getFullYear()
-    function enableMobileMenu() {
-      let menu = document.querySelector(".menu"),
-        links = document.querySelector(".links");
-      if (window.innerWidth <= 1024) {
-        menu.addEventListener("click", () => {
-          menu.classList.toggle("opened");
-          links.classList.toggle("show");
-        });
-      } else {
-        if (menu.classList.contains("opened")) menu.classList.remove("opened");
-        if (links.classList.contains("show")) links.classList.remove("show");
-      }
-    }
+
   </script>
 </html>
