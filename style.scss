@@ -451,14 +451,12 @@ skew to change the 'thickness' of the glitch.*/
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-box-shadow: inset 3px 5px 60px 63px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 3px 5px 60px 63px rgba(0,0,0,0.75);
-  box-shadow: inset 3px 5px 60px 63px rgba(0,0,0,0.75);
+
 
   
 }
 .section2{
-  background-image: url("images/fundosec2.png");
+  background-image: url("images/jpeg-optimizer_fundosec2.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -471,7 +469,7 @@ skew to change the 'thickness' of the glitch.*/
   
 }
 .section3{
-  background-image: url("images/digital-art-beautiful-mountains.jpg");
+  background-image: url("images/jpeg-optimizer_digital-art-beautiful-mountains.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -484,7 +482,7 @@ skew to change the 'thickness' of the glitch.*/
 
 }
 .section4{
-  background-image: url("images/japan-background-digital-art\ \(1\).jpg");
+  background-image: url("images/jpeg-optimizer_japan-background-digital-art\ \(1\).jpg");
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -849,7 +847,7 @@ footer{
   align-items: center;
   gap: 5px;
 }
-@media screen and (min-width:425px){
+@media screen and (max-width:425px){
   footer{
     font-size: 0.6rem;
   }
