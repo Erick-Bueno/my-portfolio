@@ -791,12 +791,8 @@ header{
   flex: 0.95;
   padding-left: 1rem;
 }
-.nav > .nav-header > .nav-title {
-  font-size: 22px;
-  color: #fff;
-  font-family: "League Spartan", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+.nav-title img {
+  width: 60px;
 }
 .nav > .nav-list {
   display: flex;
