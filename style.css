@@ -574,22 +574,16 @@ skew to change the 'thickness' of the glitch.*/
   }
 }
 .section1 {
-  background-image: url("images/dystopian-landscape-with-futuristic-city-people.jpg");
+  background-color: #283954;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .section2 {
-  background-image: url("images/jpeg-optimizer_fundosec2.png");
+  background-color: #0067FE;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -597,11 +591,8 @@ skew to change the 'thickness' of the glitch.*/
 }
 
 .section3 {
-  background-image: url("images/jpeg-optimizer_digital-art-beautiful-mountains.jpg");
+  background-color: #283954;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -609,11 +600,8 @@ skew to change the 'thickness' of the glitch.*/
 }
 
 .section4 {
-  background-image: url("images/jpeg-optimizer_japan-background-digital-art (1).jpg");
+  background-color: #0067FE;
   height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -922,7 +910,7 @@ header {
 }
 
 .nav {
-  background-color: rgba(5, 5, 5, 0.7411764706);
+  background-color: #5b6c8772;
   display: flex;
   align-items: center;
 }
